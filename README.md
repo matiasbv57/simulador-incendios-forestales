@@ -79,7 +79,7 @@ import numpy as np
 def cargar_raster(path):
     with rasterio.open(path) as src:
         return src.read(1)  # Leer banda 1
-# 🔥 Simulador de Incendios Forestales - Capilla del Monte (Córdoba)
+# 🔥 Simulador de Incendios Forestales
 
 Simulador desarrollado por **Matías D. Tejada**, Bombero Voluntario de Chilecito, para modelar el avance de incendios en tiempo real con condiciones reales.
 
